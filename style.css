@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.center{
+    max-width: 1100px;
+    margin:0 auto;
+    padding:0 2%;
+    display: flex;
+}
+
+header{
+    background-color: rgba(228, 106, 146, 0.651);
+    padding:20px 0;
+    border-bottom:2px solid rgba(34, 33, 33, 0.836)
+}
+
+.logo{
+    color: rgb(7, 7, 7);
+}
+
+.logo h2{
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.menu a{
+    color: rgb(7, 7, 7);
+    font-size: 14px;
+    text-decoration: none;
+
+}
+
+.menu a:hover{
+    color:  rgba(253, 251, 252, 0.651);
+}
+
+.menu .btn-menu{
+    background-color: rgba(236, 226, 226, 0.952);
+    display: inline-block;
+    padding: 4px 10px;
+}
