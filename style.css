@@ -11,11 +11,12 @@
     margin: 0 auto;
     padding: 0 2%;
     display: flex;
+    flex-wrap: wrap;
 }
 
 header {
     background-color: rgba(228, 106, 146, 0.651);
-    padding: 20px 0;
+    padding: 10px 0;
     border-bottom: 2px solid rgba(37, 37, 37, 0.445);
 }
 
@@ -25,7 +26,7 @@ header {
 
 .logo h2 {
     font-weight: normal;
-    font-size: 22px;
+    font-size: 28px;
 }
 
 .menu {
@@ -57,4 +58,78 @@ header {
 .menu .btn-menu:hover {
     background-color: rgba(228, 106, 146, 0.651);
     color: white;
+}
+
+/*
+Section Main
+*/
+
+section.main {
+    background-image: url('img/Maricakes_confeitando.jpg');
+    padding: 70px 0;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.main_cta {
+    width: 100%;
+    margin: 60px 0;
+    text-align: center;
+}
+
+.main_cta h2 {
+    color: rgb(7, 7, 7);
+    font-size: 25px;
+
+}
+
+.main_cta p {
+    color: rgba(255, 255, 255, 0.705);
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+.main_cta button {
+    background-color: rgba(236, 226, 226, 0.952);
+    display: inline-block;
+    padding: 6px 14px;
+    color: rgb(20, 20, 20);
+    border-radius: 8px;
+    font-size: 16px;
+    border: 0;
+    cursor: pointer;
+}
+
+.diferenciais {
+    display: flex;
+}
+
+.diferencial-single {
+    background-color: white;
+    border-radius: 10px;
+    width: 23%;
+    margin-right: 2%;
+    padding: 50px 20px;
+}
+
+.diferencial-single i {
+    color: rgba(228, 106, 146, 0.651);
+    font-size: 23px;
+}
+
+.diferencial-single h2 {
+    color: rgba(228, 106, 146, 0.651);
+    margin: 10px 0;
+    font-size: 17px;
+}
+
+.diferencial-single p {
+    color: rgba(32, 32, 32, 0.863);
+    font-size: 14px;
+    line-height: 20px;
+}
+
+img {
+    width: 50px;
 }
