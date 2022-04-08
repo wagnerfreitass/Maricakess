@@ -103,6 +103,7 @@ section.main {
 
 .diferenciais {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .diferencial-single {
@@ -132,4 +133,12 @@ section.main {
 
 img {
     width: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .diferencial-single {
+        width: 100%;
+        margin-bottom: 20px;
+
+    }
 }
