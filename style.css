@@ -65,10 +65,9 @@ Section Main
 */
 
 section.main {
-    background-image: url('img/Maricakes_confeitando.jpg');
-    padding: 70px 0;
+    background-image: url('img/maricakesconf.png');
+    padding: 100px 0;
     background-position: center;
-    background-size: cover;
 
 }
 
