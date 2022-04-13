@@ -134,6 +134,37 @@ img {
     width: 50px;
 }
 
+
+section.sobre {
+    padding: 80px 0;
+}
+
+.chamada-sobre {
+    width: 100%;
+    text-align: center;
+}
+
+.chamada-sobre h2 {
+    color: rgba(228, 106, 146, 0.651);
+    text-transform: uppercase;
+
+}
+
+.chamada-sobre p {
+    font-size: 14px;
+    color: gray;
+    margin: 10px 0;
+}
+
+.conteudo-sobre {
+    display: flex;
+}
+
+.conteudo-sobre p {
+    margin: 0 20px;
+}
+
+
 @media screen and (max-width: 768px) {
     .diferencial-single {
         width: 100%;
