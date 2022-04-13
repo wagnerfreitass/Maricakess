@@ -162,18 +162,9 @@ section.sobre {
 }
 
 .conteudo-sobre p {
-    color: rgb(20, 20, 20);
-    line-height: 30px;
     text-align: center;
-
-}
-
-.conteudo-sobre {
-    background-color: white;
-    border-radius: 10px;
-    width: 48%;
-    margin-right: 2%;
-    padding: 40px 20px;
+    color: rgb(20, 20, 20);
+    line-height: 25px;
 }
 
 section.redes {
