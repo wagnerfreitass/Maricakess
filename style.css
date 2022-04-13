@@ -48,7 +48,7 @@ header {
 }
 
 .menu .btn-menu {
-    background-color: rgba(236, 226, 226, 0.952);
+    background-color: rgba(236, 226, 234, 0.952);
     display: inline-block;
     padding: 6px 14px;
     color: rgb(20, 20, 20);
@@ -127,7 +127,7 @@ section.main {
 .diferencial-single p {
     color: rgba(32, 32, 32, 0.863);
     font-size: 14px;
-    line-height: 20px;
+    line-height: 25px;
 }
 
 img {
@@ -158,10 +158,33 @@ section.sobre {
 
 .conteudo-sobre {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .conteudo-sobre p {
-    margin: 0 20px;
+    color: rgb(20, 20, 20);
+    line-height: 30px;
+    text-align: center;
+
+}
+
+.conteudo-sobre {
+    background-color: white;
+    border-radius: 10px;
+    width: 48%;
+    margin-right: 2%;
+    padding: 40px 20px;
+}
+
+section.redes {
+    color: rgba(228, 106, 146, 0.651);
+    padding: 8px 0;
+}
+
+.redes-single {
+    width: 22%;
+    margin-right: 3%;
+    text-align: center;
 }
 
 
@@ -170,5 +193,15 @@ section.sobre {
         width: 100%;
         margin-bottom: 20px;
 
+    }
+
+    .conteudo-sobre p {
+        width: 100%;
+        margin: 20px 20px;
+    }
+
+    .redes-single {
+        width: 100%;
+        margin: 20px 20px;
     }
 }
